@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>FarmWiki — Free Farming Knowledge Platform</title>
+  <meta name="description" content="FarmWiki: community-driven farming knowledge, guides and Q&A." />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body>
+  <header class="bg-dark text-light">
+    <nav class="container navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="assets/images/banners/banner-placeholder.png" alt="FarmWiki" height="40" class="me-2"/>
+        <span>FarmWiki</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMain">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMain">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#overview">Overview</a></li>
+          <li class="nav-item"><a class="nav-link" href="#knowledge">Knowledge Base</a></li>
+          <li class="nav-item"><a class="nav-link" href="#qa">Q&amp;A</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contribute">Contribute</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container py-5 text-center">
+      <img src="https://via.placeholder.com/1200x400/2d5016/FFFFFF?text=FarmWiki+-+Free+Farming+Knowledge+Platform" alt="FarmWiki banner" class="img-fluid rounded shadow-sm mb-4"/>
+      <h1 class="display-5">FarmWiki — Free Farming Knowledge Platform</h1>
+      <p class="lead">Community-driven farming articles, practical techniques and an open Q&amp;A for farmers worldwide.</p>
+      <a href="#knowledge" class="btn btn-success btn-lg">Explore Articles</a>
+      <a href="#contribute" class="btn btn-outline-light btn-lg ms-2">Contribute</a>
+    </div>
+  </header>
+
+  <main class="container my-5">
+    <section id="overview" class="mb-5">
+      <h2>Overview</h2>
+      <p class="lead">FarmWiki is an open-source, Wikipedia-style site dedicated to agricultural knowledge: techniques, crop guides, livestock care, and community experience.</p>
+
+      <div class="row mt-4">
+        <div class="col-md-4">
+          <h5><i class="fa-solid fa-book me-2"></i> Knowledge Base</h5>
+          <p>Community-written articles and step-by-step guides for crops, techniques and seasonal planning.</p>
+        </div>
+        <div class="col-md-4">
+          <h5><i class="fa-solid fa-comments me-2"></i> Q&amp;A</h5>
+          <p>Ask practical questions and get community answers from farmers, researchers and extension workers.</p>
+        </div>
+        <div class="col-md-4">
+          <h5><i class="fa-solid fa-globe me-2"></i> Global &amp; Local</h5>
+          <p>Regional tips and translations ensure advice is relevant to local climates and conditions.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="knowledge" class="mb-5">
+      <h2>Knowledge Base</h2>
+      <p>Browse featured crop guides and techniques. The content is organized by category to help you find relevant articles quickly.</p>
+
+      <div class="row mt-3" id="articlesList">
+        <!-- sample cards inserted by JS -->
+      </div>
+
+      <div class="mt-4">
+        <input id="searchInput" class="form-control" placeholder="Search articles by keyword, crop or technique" />
+      </div>
+    </section>
+
+    <section id="qa" class="mb-5">
+      <h2>Q&amp;A</h2>
+      <p>Ask a question or browse recent community answers.</p>
+
+      <div id="qaFeed" class="list-group mt-3">
+        <div class="list-group-item">
+          <h5 class="mb-1">How to prevent mango flowering issues?</h5>
+          <p class="mb-1 small text-muted">Answered by community member</p>
+        </div>
+        <div class="list-group-item">
+          <h5 class="mb-1">Best organic pest control for cabbage?</h5>
+          <p class="mb-1 small text-muted">Answered by community member</p>
+        </div>
+      </div>
+
+      <div class="mt-3">
+        <button class="btn btn-outline-primary" id="askQuestionBtn">Ask a question</button>
+      </div>
+    </section>
+
+    <section id="contribute" class="mb-5">
+      <h2>Contribute</h2>
+      <p>Share your knowledge — write an article, answer Q&amp;A, upload photos or translate content. See our contribution guidelines in the repository.</p>
+      <a class="btn btn-success" href="CONTRIBUTING.md">Contribution Guide</a>
+    </section>
+
+    <section id="contact" class="mb-5">
+      <h2>Contact &amp; Support</h2>
+      <p>For administrative contact: <strong>jagatimani@gmail.com</strong></p>
+      <p>Project support and bugs: open an issue on GitHub.</p>
+    </section>
+  </main>
+
+  <footer class="bg-light py-4 mt-5">
+    <div class="container text-center small">
+      <div>MIT License — FarmWiki © 2023 FarmWiki Contributors</div>
+      <div class="mt-2">
+        <a href="https://github.com/jagatimani/Farmwiki" class="me-3">GitHub</a>
+        <a href="https://yourusername.github.io/farmwiki">Live Demo</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
