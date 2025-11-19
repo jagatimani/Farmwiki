@@ -1,9 +1,5 @@
 FarmWiki - Free Farming Knowledge Platform 🌱
 
-https://via.placeholder.com/1200x400/2d5016/FFFFFF?text=FarmWiki+-+Free+Farming+Knowledge+Platform Banner image: Replace with actual farming community image
-
-https://img.shields.io/github/license/yourusername/farmwiki?style=for-the-badge https://img.shields.io/github/stars/yourusername/farmwiki?style=for-the-badge https://img.shields.io/github/forks/yourusername/farmwiki?style=for-the-badge https://img.shields.io/github/issues/yourusername/farmwiki?style=for-the-badge https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge https://img.shields.io/github/contributors/yourusername/farmwiki?style=for-the-badge
-
 📖 Table of Contents
 
 · Overview
